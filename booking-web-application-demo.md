@@ -531,6 +531,7 @@ app.listen(port, () => {
 ### บันทึกผลลัพธ์การ Get ข้อมูล
 
 ![รูปผลลัพธ์การ Get ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/cbde9a9c-c8a1-466c-937d-5c4898277f7f)
 
 ### กรณีผลลัพธ์แจ้ง "error":"Token ไม่ถูกต้องหรือหมดอายุ" ให้ทำการ Login ใหม่ แล้วคัดลอก Token ที่ได้เพื่อเปลี่ยนค่าใน variable token
 
@@ -541,7 +542,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ Get ข้อมูลโดยระบุ ID
 
-![รูปผลลัพธ์การ Get ข้อมูลโดยระบุ ID](images path/image.png)
+![image](https://github.com/user-attachments/assets/1d934b7b-8f1e-4842-9052-8df206499a92)
+
 
 8. สร้าง request เพื่อ Update Booking ระบุ Url คือ PUT: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
@@ -553,14 +555,16 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ PUT เพื่อแก้ไขข้อมูล (ข้อมูล comment จะต้องไม่เป็นค่า null)
 
-![รูปผลลัพธ์การ PUT ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/230d1098-b78d-40c0-80e7-48115049b115)
+
 
 9. สร้าง request เพื่อ Delete Booking ระบุ Url คือ DELETE: {{baseUrl}}/api/bookings/1
    - Headers: Authorization: Bearer {{token}}
 
 ### บันทึกผลลัพธ์การ DELETE
 
-![รูปผลลัพธ์การ delete ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/0caa46a7-b055-4367-ae10-01147485bc6a)
+
 
 9.1 ปรับปรุงแก้ไขโค้ดเพื่อให้แสดงผลการลบเป็น status : "ลบข้อมูลสำเร็จโดย [ชื่อนักศึกษา]"
 ดังรูป
@@ -568,7 +572,8 @@ app.listen(port, () => {
 
 ### บันทึกผลลัพธ์การ DELETE with status
 
-![รูปผลลัพธ์การ Delete ข้อมูล](images path/image.png)
+![image](https://github.com/user-attachments/assets/17d453d9-3dc2-4ed1-9955-9a1f743f0a85)
+
 
 
 
@@ -1040,7 +1045,8 @@ npm run dev
 ```
 1.1 กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน 
 #### บันทึกผลการรัน
-![รูปผลการรันหน้า front-end](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/7d16f17e-8543-4543-9ebf-f2e7a1c8e358)
+
 1.2 กด Ctrl + c เพื่อยกเลิกการทำงาน
 
 2. ติดตั้ง dependencies ที่จำเป็น:
@@ -1153,13 +1159,15 @@ export default App;
 ```
 2) ทดสอบรัน โดยพิมพ์คำสั่ง npm run dev แล้วบันทึกหน้าผลการรัน
 #### บันทึกรูปผลการรัน
-![ผลการรัน](./image path/image.png)
+![image](https://github.com/user-attachments/assets/2d1631d6-a085-494f-9b4b-dfa60f08cca2)
+
 
 3) กดปุ่ม Ctrl ค้างไว้ แล้วคลิกลิ้ง ที่ http://localhost:เลข Port ที่รัน เพื่อเปิดหน้าเว็บการทำงาน แล้วตรวจสอบ error โดยไม่ต้องหยุดการทำงานของ Application
 #### บันทึกผลการรัน
 ```html
 บันทึกสาเหตุที่ทำให้เกิด error ที่นี่
-```
+ข้อผิดพลาดที่เกิดขึ้นระบุว่าไม่สามารถนำเข้าไฟล์  จากตำแหน่ง  ในไฟล์  ได้ ซึ่งอาจเป็นเพราะไฟล์  ไม่มีอยู่ในตำแหน่งที่ระบุ เส้นทางการนำเข้ามีความผิดพลาด (เช่น ตัวพิมพ์ใหญ่-พิมพ์เล็กไม่ตรงกัน) หรือมีปัญหาเกี่ยวกับการตั้งค่า Vite เช่นในไฟล์  วิธีแก้ไขคือ ตรวจสอบว่าไฟล์มีอยู่จริงในโฟลเดอร์  และชื่อไฟล์ถูกต้อง หรือแก้เส้นทางการนำเข้าให้ตรงกับโครงสร้างโปรเจกต์ และถ้าจำเป็น ให้สร้างไฟล์  ใหม่ หากยังพบปัญหา ลองเพิ่มการตั้งค่าต่อไปนี้ใน  เพื่อปิดการแสดงข้อผิดพลาดแบบ overlay:
+
 ### 3.2.2 BookingForm Component
 1) สร้างไฟล์ `src/components/BookingForm.jsx`:
 
@@ -1442,7 +1450,8 @@ export default BookingForm;
 ![หน้าจองห้องพัก](images/front-booking.png)
 3) ทดสอบป้อนข้อมูลการจอง โดยระบุชื่อผู้จองเป็นชื่อนักศึกษา และบันทึกผลการทดลองที่มีหน้าสรุปการจอง
 #### บันทึกผลการทดลอง
-![รูปหน้าจองห้องพัก ที่แสดงข้อมูลสรุปการจอง](images-path/image.png)
+![image](https://github.com/user-attachments/assets/ca301227-a8f2-4f63-ae59-45fcb0cbe6c0)
+
 
 4) ใช้ Postman  ตรวจสอบว่ามีข้อมูลการจองเพิ่มไปหรือไม่ (หาก token หมดอายุ ต้องทำการ Login แล้วเปลี่ยนค่า token ใหม่)
 
@@ -1821,7 +1830,8 @@ export default App;
 4) ทำการ Login ด้วย user: admin  password: admin123  หากระบบทำงานถูกต้อง จะแสดงรายการจองห้องพัก
 
 ### บันทึกผลการทดลอง 
-![รูปรายการจองห้องพัก](images-path/image.png)
+![image](https://github.com/user-attachments/assets/3e964eeb-552c-4a84-8d9a-3e8b5a636966)
+
    
    
 
@@ -1950,7 +1960,8 @@ export default BookingEdit;
 5) แก้ไขข้อมูลการจองและบันทึกรูปผลการทดลอง
    
 ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](./image-path/image.png)
+![image](https://github.com/user-attachments/assets/ab6e25f2-a4e8-4e21-8b7a-a5fdb2f4a7f3)
+
 
 ### 3.2.8 AdminDashboard Component
 
@@ -2012,6 +2023,7 @@ export default AdminDashboard;
 
 3) บันทึกผลการทดลอง เมื่อกดปุ่ม "สำหรับผู้ดูแลระบบ"
    ### บันทึกผลการทดลอง
-![ผลการแก้ไขข้อมูลการจอง](image-path/image.png)
+![image](https://github.com/user-attachments/assets/50d35ba1-d3a2-4931-83a9-4e4bda4bba9b)
+
 
 
